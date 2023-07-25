@@ -9,7 +9,7 @@ const cookieParser = require("cookie-parser");
 
 // const BASE_URL = "http://localhost:5173";
 // const BASE_URL = "https://pageturnersreviews.netlify.app";
-const BASE_URL = "https://main.d22wwuxm2zfgcv.amplifyapp.com/";
+const BASE_URL = "https://pageturners-backend.onrender.com/";
 
 const passport = require("passport");
 require("./passportConfig")(passport);
