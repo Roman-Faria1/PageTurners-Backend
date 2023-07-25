@@ -4,7 +4,8 @@ const JwtStrategy = require("passport-jwt").Strategy;
 const { ExtractJwt } = require("passport-jwt");
 
 // const BASE_URL = "http://localhost:5173";
-const BASE_URL = "https://bookrevews-back-end.onrender.com";
+// const BASE_URL = "https://bookrevews-back-end.onrender.com";
+const BASE_URL = "https://main.d2t4p7pc5iy3t6.amplifyapp.com/";
 
 const {
   createUser,

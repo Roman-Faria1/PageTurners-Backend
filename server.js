@@ -8,7 +8,8 @@ const cookieSession = require("cookie-session");
 const cookieParser = require("cookie-parser");
 
 // const BASE_URL = "http://localhost:5173";
-const BASE_URL = "https://pageturnersreviews.netlify.app";
+// const BASE_URL = "https://pageturnersreviews.netlify.app";
+const BASE_URL = "https://main.d22wwuxm2zfgcv.amplifyapp.com/";
 
 const passport = require("passport");
 require("./passportConfig")(passport);
@@ -31,7 +32,6 @@ app.use(
   })
 );
 
-
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -46,7 +46,6 @@ app.use("/api", require("./api"));
 app.get("/failed", (req, res) => {
   res.send("Failed");
 });
-
 
 // Redirect the user to the Google signin page
 app.get(
