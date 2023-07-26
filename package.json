@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "build-extra": "npm install && npm run seed && npm run start",
     "build": "npm install && npm run seed",
     "start": "node server.js",
     "start-dev": "nodemon server.js",
